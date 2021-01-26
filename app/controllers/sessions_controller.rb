@@ -10,8 +10,6 @@ class SessionsController < ApplicationController
     elsif params[:name] = nil || params[:name].empty?
        redirect_to '/'
     else
-    # if params[:name].nil?
-    #   params[:name].empty? || !params[:name]
       redirect_to '/'
 
     end
